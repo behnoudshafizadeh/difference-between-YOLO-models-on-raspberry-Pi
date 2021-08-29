@@ -1,4 +1,4 @@
-# Difference-between-YOLO-models-on-raspberry-Pi
+# Difference-between-YOLO-models-on-raspberry-P
 Difference in testing time between two YOLO models (YOLOv3&amp;&amp;YOLOv3 tiny)
 ## Overall Discription
 as mentioned before in recognizing LP [link](https://github.com/behnoudshafizadeh/License-Plate-Detection-using-Raspberry-PI-YOLOV3-), so we use another light-weight version of YOLOv3 model as tiny YOLOv3 to reduce the processing time in tiny version rather than basic YOLOv3 model. it means that you can have a real time system using tiny YOLOv3 , however you see the weak bounding boxes in localizing image objects because the YOLOv3 has a stronger (deeper layer) feature extractor rather than tiny version counterpart.you see the facts resulted by inventor of yolo models [darknet](https://pjreddie.com/darknet/yolo/) in below figures :
